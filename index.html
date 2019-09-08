@@ -15,6 +15,22 @@
     <header>
         <h1>Contact Book</h1>
     </header>
+    <section id="new-contact">
+        <h2>Create a new contact</h2>
+        <form>
+            <div>
+                <label for="name">Name:</label>
+                <input id="name" type="text"  maxlength="15" required>
+            </div>
+            <div>
+                <label for="tel">Telephone:</label>
+                <input id="tel" type="tel" maxlength="15" required>
+            </div>
+            <div>
+                <button>Create contacts</button>
+            </div>
+        </form>
+    </section>
     <main>
         <section id="contact-display">
             <h2 class="contacts">Contacts</h2>
@@ -29,22 +45,6 @@
                     
                 </tbody>
             </table>
-        </section>
-        <section id="new-contact">
-            <h2>Create a new contact</h2>
-            <form>
-                <div>
-                    <label for="name">Name:</label>
-                    <input id="name" type="text"  maxlength="15" required>
-                </div>
-                <div>
-                    <label for="tel">Telephone:</label>
-                    <input id="tel" type="tel" maxlength="15" required>
-                </div>
-                <div>
-                    <button>Create contacts</button>
-                </div>
-            </form>
         </section>
     </main>
 </div>

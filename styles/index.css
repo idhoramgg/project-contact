@@ -23,7 +23,7 @@ h1{
 th{
     color: rgb(56, 56, 56);
     border: 1px solid rgb(190,190,190);
-    padding: 10px 30px;
+    padding: 10px 50px;
     border-radius: 20px;
     font-size: 20px;
     
@@ -31,7 +31,7 @@ th{
 }
 td{
     border: 1px solid rgb(190,190,190);
-    padding: 0px 10px;
+    padding: 0px 50px;
     border-radius: 20px;
 }
 thead{
@@ -46,8 +46,9 @@ header{
     line-height: 100px;
 }
 
-#new-contact, #contact-display {
+#contact-display {
     padding: 20px;
+    background-color: hsla(102, 9%, 72%, 0.4);
 }
 #new-contact {
     background: transparent;
